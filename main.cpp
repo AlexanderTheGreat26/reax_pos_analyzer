@@ -69,7 +69,7 @@ std::vector<int> sum (std::vector<int> & first, std::vector<int> & second, std::
     int size = min(first.size(), second.size(), third.size());
     std::vector<int> result (size);
     for (int i = 0; i < size; ++i)
-        result[i] = first[i] + second[i];
+        result[i] = first[i] + second[i] + third[i];
     return result;
 }
 
